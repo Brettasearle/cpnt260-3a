@@ -1,0 +1,105 @@
+/* resets */
+{
+  box-sizing: border-box;0
+}
+
+body {
+  margin: 0;
+}
+/* linear gradient background image */
+body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  background-image: 
+  linear-gradient(360deg, black 50%, transparent 80%),   
+  url(https://cdn.pixabay.com/photo/2018/09/14/21/41/marijuana-3678222_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  linear-gradient: 
+}
+/* "stay up to date with all things 420" */
+h1 {
+  color: greenyellow;
+  text-align: center;
+}
+/* The background for the text */
+form {
+  color: greenyellow;
+  width: 60ch;
+  height: 50ch;
+  margin: auto;
+  border: 3px solid  greenyellow;
+  border-radius: 1rem;
+  background-color: black;
+  
+
+  
+}
+/* making everything in the box fit nice */
+div {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  flex-direction: column;
+  width: 30ch;
+  padding-left: 45px;
+
+  
+
+}
+/* text colors/ making the fieldset and legend not look so gross  */
+
+footer {
+  text-align: center;
+
+}
+
+label {
+  padding-top: 15px;
+  text-align: start;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+fieldset {
+  border: 0px;
+  
+}
+
+legend {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: greenyellow
+}
+
+main {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  color:greenyellow;
+  max-width: 40ch;
+  
+  
+  
+ 
+  
+}
+
+body {
+  flex-direction: column;
+}
+/* couldnt figure out how to make the * red without changing everything */
+/* :required {
+  color: red;
+  content: "*";
+} */
+
+
+

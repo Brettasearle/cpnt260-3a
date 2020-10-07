@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<!-- hope the name form.html is okay from my research aslong as it has .html in it its valid -->
+
+<body>
+  <main>
+    <h1><strong> Stay up to date with all things 420</strong></h1>
+    <p>Add your information to stay up to date with daily deals, Add your email and never miss a thing with instant alerts for special events or anytime anything goes on sale .</p>
+  </main>
+
+  <!-- all of my forms ( seprate so its easier to read)  -->
+  
+  <fieldset>
+    <legend>Please fill out our form</legend>
+    <form class="form">
+      
+      <div> 
+        <label for="name">Name:*</label>
+        <input type="text" name="name" id="name" placeholder="First name" required>
+      </div>
+    
+      <div> 
+        <label for="email">Email:*</label>
+        <input type="email" name="email" id="email" placeholder="Email address" required>
+      </div>
+  <!-- I know it does ask for a password in the assingment I just find them cool to add ! -->
+      <div> 
+        <label for="password">Password:*</label>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+      </div>
+<!-- I did weed types instead of food types -->
+      <div>
+        <label for="Favourite Weed strain">Favourite Weed strain ?</label>
+        <select name="Favourite Weed strain" id="Favourite Weed strain">
+          <option value="sativa">Sativa</option>
+          <option value="indica">Indica</option>
+          <option value="hybrid">Hybrid</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="promos">I would like to recieve promotional emails</label> 
+        <input type="checkbox" name="promos" id="promos">
+      </div>
+    <!-- submit done in the form of a button, I didnt add a reset button because they usually mess people up! -->
+      <footer><button type="submit">Submit</button></footer>
+    </form>
+  </fieldset>
+    
+  </body>
+  </html>
